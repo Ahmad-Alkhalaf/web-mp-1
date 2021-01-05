@@ -1,0 +1,158 @@
+body{
+    font-family: "Open Sans";
+    margin: 0px;
+}
+
+/* For the Header of the website */
+.top{
+    background-color: #E63946;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 86px;
+}
+
+/* To adjust the logo image */
+.imag{
+    width: 86px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* To adjust the text in the Header and seperate it from the logo */
+.header{
+    color: #f1faee;
+    font-size: 24px;
+    justify-content: space-between;
+    margin-left: 128px;
+    width: 512px;
+    display: flex;
+    text-decoration: none;
+}
+
+/* For the sidebar of the page */
+.side{
+    background-color: #ec9a9a;
+    width: 160px;
+    height: 162vh;
+    z-index: 1;
+    text-align: center;
+    font-size: 16px;
+    justify-content: space-around;
+    align-items: center;
+    color: #F0E2D9;
+    float: left;
+}
+
+/* To adjust the text in the side */
+h4{
+    margin-top: 96px;
+    margin-bottom: 96px;
+    font-size: 24px;
+}
+
+/* To seperate the texts in the side */
+h4 div{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* To adjust the linked texts */
+a:link{
+    color: #f1faee;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #f1faee;
+}
+
+a:hover{    
+    color: #f1faee;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #f1faee;
+}
+
+/* For the main catalogue part background */
+.main{
+    padding-left: 200px;
+    background-color: #A8DADC;
+    height: 162vh;
+}
+
+.title{
+    padding-top: 32px;
+    padding-left: 24px;
+    font-size: 32px
+}
+
+.description{
+    font-size: 18px; 
+    width: 360px;
+text-align: center;}
+
+/* To adjust the row */
+td{
+    padding: 24px;
+    width: 16px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* To adjust the section text */
+.section{
+    padding-left: 32px;
+    padding-top: 48px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #457b9d;
+
+}
+
+/* To adjust the poster image */
+.poster{
+    display: block;
+    width: 200px;
+    height: 256px;
+
+}
+
+/* For the hover feature */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 256px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1D3557;
+}
+
+.container:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
